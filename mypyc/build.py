@@ -170,7 +170,7 @@ def generate_c(sources: List[BuildSource], options: Options,
     Returns the C source code and (for debugging) the pretty printed IR.
     """
     module_names = [source.module for source in sources]
-
+    import pdb; pdb.set_trace()
     # Do the actual work now
     t0 = time.time()
     try:
